@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Welcome</title>
+		<link rel="stylesheet" href="style1.css">
+		<script src="script1.js"></script>
+	</head>
+	<body>
+		<div class="regis">
+			<form action="login.html" onsubmit=" return myf1()">
+				<h2>Registration Page</h2>
+				<label for="fname"><b>First name:</b></label>
+				<br>
+				<input type="text" id="fname" placeholder="Enter First Name"><br><br>
+	
+				<label for="lname"><b>Last name:</b></label>
+				<br>
+				<input type="text" id="lname" placeholder="Enter Last Name" name="lname"><br><br>
+	
+				<label for="email"><b>Email:  </b></label>
+				<br>
+				<input type="email" placeholder="Enter Email" name="email" id="email" required><br><br>
+	
+				<label for="psw"><b>Password:</b></label>
+				<br>
+			     <input type="password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Enter Password" name="psw"  required><br><br>
+	
+			     <label for="psw-repeat"><b>Repeat Password: </b></label>
+				<br>
+				<input type="password" id="repsw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"  placeholder="Repeat Password" name="psw-repeat"  required><br><br>
+				
+				<button type="submit" class="btn1" value="Submit">Submit</button>
+				<h4>Already Registered User</h4>
+				<button class="btn2" onclick="window.location.href='login.html';" type="submit" >Login</button>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+body
+{
+	background-image: url("back1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.regis
+{
+	color: white;
+	border-radius: 20px;
+	background-color:rgba(20, 7, 51, 0.6);
+	padding: 50px;
+	width: 350px;
+	height: 310px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+form{
+	margin-left: 80px;
+}
+input[type=text], input[type=password], input[type=email]{
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+button[type=submit]{
+	margin-left:10px;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 10px;
+	padding:10px 20px;
+	background-color: rgb(128, 0, 32);
+}
+h2{
+	text-decoration: underline;
+	color: rgb(101, 26, 240);
+	margin-left: 65px;
+}
+label{
+	text-align: left;
+}
